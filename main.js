@@ -23,6 +23,4 @@ fs.readdir("./commands/", (e, n) => {
         client.on(i, (...e) => n.run(client, ...e));
       });
   })
-fs.readFile(__dirname+'/token.txt', 'utf8', (tokenReadError, token) => {
-  client.login(token)
-})
+client.login(secrets.TOKEN)
