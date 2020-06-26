@@ -7,8 +7,8 @@
   "description": "A simple Node app with SQLite as a database management system, instantly up and running.",
   "main": "main.js",
   "scripts": {
-  "start-dev": "source v.env; node main.js",
-  "start-prod": "source v.env; node main.js"
+  "start-dev": "node main.js",
+  "start-prod": "node main.js"
 },
   "dependencies": {
     "discord.js": "^11.6.4",
