@@ -23,4 +23,4 @@ fs.readdir("./commands/", (e, n) => {
         client.on(i, (...e) => n.run(client, ...e));
       });
   })
-client.login(secrets.TOKEN)
+client.login(secrets.token)
