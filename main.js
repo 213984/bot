@@ -23,4 +23,4 @@ fs.readdir("./commands/", (e, n) => {
         client.on(i, (...e) => n.run(client, ...e));
       });
   }),
-  client.login("NzI0MzQyMTk3NDI3NjM0MTc3.XvYvcg.JzxG4iZkm9hV74wK9woAUp1sTVg");
+  client.login("NzI0MzQyMTk3NDI3NjM0MTc3.XvYv4g.NTIEshwfpav_ls49_Dx77BeMImw");
