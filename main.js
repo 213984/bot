@@ -22,5 +22,7 @@ fs.readdir("./commands/", (e, n) => {
           i = e.split(".")[0];
         client.on(i, (...e) => n.run(client, ...e));
       });
-  }),
-  client.login(process.env.TOKEN);
+  })
+fs.readFile(__dirname+'/token.txt', 'utf8', (tokenReadError, token) => {
+  client.login(token)
+})
