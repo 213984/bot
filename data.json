@@ -1,0 +1,90 @@
+{
+  "prefix": "ac.",
+  "c": "AC$",
+  "dc": "ACD",
+  "allowed": "574429626085015573 285599993375490050 461914901624127489 280103788910739458 418768950403399701 636500662997483521 700531786995990589",
+  "Store": {
+    "Data": {
+      "Page1": {
+        "Items": {
+          "Item1": {
+            "Name": "Senpai",
+            "Price": "1000000",
+            "EPrice": "1M",
+            "ID": "2435"
+          },
+          "Item2": {
+            "Name": "Demon",
+            "Price": "350000",
+            "EPrice": "350K",
+            "ID": "5461"
+          },
+          "Item3": {
+            "Name": "Trap",
+            "Price": "250000",
+            "EPrice": "250K",
+            "ID": "3347"
+          },
+          "Item4": {
+            "Name": "Kage",
+            "Price": "100000",
+            "EPrice": "100K",
+            "ID": "8897"
+          },
+          "Item5": {
+            "Name": "Neko",
+            "Price": "200000",
+            "EPrice": "200K",
+            "ID": "5564"
+          },
+          "Item6": {
+            "Name": "Regular",
+            "Price": "50000",
+            "EPrice": "50K",
+            "ID": "6673"
+          },
+          "Item7": {
+            "Name": "Riku (りく)",
+            "Price": "400000",
+            "EPrice": "400K",
+            "ID": "3348"
+          },
+          "Item8": {
+            "Name": "Hinata (ひなた)",
+            "Price": "500000",
+            "EPrice": "500K",
+            "ID": "9901"
+          },
+          "Item9": {
+            "Name": "Yumeko",
+            "Price": "900000",
+            "EPrice": "900K",
+            "ID": "2254"
+          },
+          "Item10": {
+            "Name": "Katsumi (勝美)",
+            "Price": "800000",
+            "EPrice": "800K",
+            "ID": "1782"
+          }
+        }
+      },
+      "Page2": {
+        "Items": {}
+      }
+    }
+  },
+  "CD": {
+    "gamble": "15000",
+    "crime": "15000",
+    "steal": "86400000",
+    "beg": "180000",
+    "work": "300000",
+    "daily": "86400000",
+    "tokens": {
+      "gamble": "86400000",
+      "crime": "86400000",
+      "slot": "86400000"
+    }
+  }
+}
