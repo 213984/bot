@@ -1,7 +1,6 @@
 const Discord = require("discord.js"),
   client = new Discord.Client(),
-  fs = require("fs"),
-  token = require("/config.json").token;
+  fs = require("fs");
 require(__dirname + "/request.js"),
   (client.commands = new Discord.Collection()),
   (client.aliases = new Discord.Collection()),
@@ -24,4 +23,4 @@ fs.readdir("./commands/", (e, n) => {
         client.on(i, (...e) => n.run(client, ...e));
       });
   }),
-  client.login(token);
+  client.login("NzI0MzQyMTk3NDI3NjM0MTc3.XvYvcg.JzxG4iZkm9hV74wK9woAUp1sTVg");
